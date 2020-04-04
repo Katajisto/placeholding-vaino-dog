@@ -24,7 +24,7 @@ func main() {
 	file.Close()
 
 	http.HandleFunc("/", sendImg)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":3003", nil))
 }
 
 func sendImg(w http.ResponseWriter, r *http.Request) {
