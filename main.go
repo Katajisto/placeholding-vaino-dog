@@ -58,7 +58,7 @@ func sendImg(w http.ResponseWriter, r *http.Request) {
 	//result in actual image dimensions
 	//display the "documentation" page
 	if(heightStr == "" || widthStr == "") {
-		fmt.Fprintf(w, "<h1>Placeholding Väinö Dog</h1><h2>USAGE: m.ktj.st/vp/[width]x[height]</h2><h3>Example: m.ktj.st/vp/200x200</h3><img src=\"m.ktj.st/vp/200x200\"/>)
+		fmt.Fprintf(w, "<h1>Placeholding Väinö Dog</h1><h2>USAGE: m.ktj.st/vp/[width]x[height]</h2><h3>Example: m.ktj.st/vp/200x200</h3><img src=\"m.ktj.st/vp/200x200\"/>")
 	} else {
 		width, err1 := strconv.Atoi(widthStr)
 		height, err2 := strconv.Atoi(heightStr)
