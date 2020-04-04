@@ -1,5 +1,5 @@
-#Placeholding Väinö Dog
-##A placeholder image generator
+# Placeholding Väinö Dog
+## A placeholder image generator
 This placeholder image generator was inspired by place-puppy.com, but this has SSL. Also it has only one image, which is of my dog: Väinö. 
 
 You can test it out here: m.ktj.st/vp/
